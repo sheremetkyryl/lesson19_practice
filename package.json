@@ -1,0 +1,27 @@
+{
+  "name": "lesson19_practice",
+  "version": "1.0.0",
+  "description": "четвертий семестр",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "server": "json-server --watch ./data/data-base.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheremetkyryl/lesson19_practice.git"
+  },
+  "keywords": [],
+  "author": "Sheremet Kyryl <kruisher@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheremetkyryl/lesson19_practice/issues"
+  },
+  "homepage": "https://github.com/sheremetkyryl/lesson19_practice#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
